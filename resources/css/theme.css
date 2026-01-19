@@ -1,4 +1,7 @@
 @theme {
+  --page-gutter: 6vw;
+  --content-max-width: 1200px;
+  --wide-content-max-width: 1350px;
     --breakpoint-xs: 480px;
     --breakpoint-sm: 600px;
     --breakpoint-md: 782px;
@@ -26,9 +29,16 @@
     --text-9xl: var(--wp--preset--font-size--9-xl, 8rem);
 }
 
-:root {
-  --page-gutter: 6vw;
-  --content-max-width: 1200px;
-  --wide-content-max-width: 1350px;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
