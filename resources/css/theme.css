@@ -25,3 +25,10 @@
     --text-8xl: var(--wp--preset--font-size--8-xl, 6rem);
     --text-9xl: var(--wp--preset--font-size--9-xl, 8rem);
 }
+
+:root {
+  --page-gutter: 6vw;
+  --content-max-width: 1200px;
+  --wide-content-max-width: 1350px;
+}
+
